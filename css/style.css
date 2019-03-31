@@ -1,10 +1,15 @@
 /* Base */
+ #top {
+   background-image: url("1905.png");;
+} 
+html, body { scroll-behavior:smooth; }
+
 body {
   line-height: 1.7;
   color: #cfcfd1;
   font-weight: 300;
   font-size: 1rem;
-  background: #232531;
+  background: #000000;
   font-family: "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
 ::-moz-selection {
@@ -24,6 +29,7 @@ a {
 
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
+  font-weight: 500;
   font-family: "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
 .border-2 {
@@ -609,9 +615,9 @@ h1, h2, h3, h4, h5,
   .site-hero h1 {
     font-size: 2rem;
     background: -webkit-gradient(linear, left top, right top, from(#c70039), color-stop(70%, #ff5733));
-    background: -webkit-linear-gradient(left, #c70039, #ff5733 70%);
-    background: -o-linear-gradient(left, #c70039, #ff5733 70%);
-    background: linear-gradient(to right, #c70039, #ff5733 70%);
+    background: -webkit-linear-gradient(left, #57a76a, #1093b6 70%);
+    background: -o-linear-gradient(left, #57a76a, #1093b6 70%);
+    background: linear-gradient(to right, #57a76a, #1093b6 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
     @media (min-width: 992px) {
