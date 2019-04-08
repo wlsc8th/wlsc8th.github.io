@@ -20,7 +20,7 @@ body {
   font-weight: 300;
   font-size: 1rem;
   background: #000000;
-  font-family: "Noto Sans TC", "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", "微軟正黑體"; }
+  font-family: "Noto Sans TC", "微軟正黑體", sans-serif, "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
 ::-moz-selection {
   background: #000;
