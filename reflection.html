@@ -1,0 +1,288 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>感言</title><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:first-child { margin-top: -20px; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; }
+button, input, select, textarea { color: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px !important; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  @page { margin: 20mm 0px; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="mermaid"] svg, [lang="flow"] svg { max-width: 100%; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+
+
+:root { --control-text-color: #777; --side-bar-bg-color: #f6f8fa ; }
+html { font-size: 16px; -webkit-font-smoothing: subpixel-antialiased; }
+body { font-family: "SF UI Text", "PingFang SC", -apple-system, -apple-system-body, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", 微软雅黑, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; color: rgb(36, 41, 46); line-height: 1.5; font-weight: 400; -webkit-font-smoothing: unset; }
+#write { max-width: 860px; margin: 0px auto; padding: 20px 30px 100px; }
+#write > ol:first-child, #write > ul:first-child { margin-top: 30px; }
+body > :first-child { margin-top: 0px !important; }
+body > :last-child { margin-bottom: 0px !important; }
+a { color: rgb(65, 131, 196); }
+h1, h2, h3, h4, h5, h6 { position: relative; margin-top: 1.8rem; margin-bottom: 1rem; line-height: 1.4; cursor: text; color: rgb(20, 35, 49); }
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor { text-decoration: none; }
+h1 code, h1 tt, h2 code, h2 tt, h3 code, h3 tt, h4 code, h4 tt, h5 code, h5 tt, h6 code, h6 tt { font-size: inherit; }
+h1 { text-align: center; padding-bottom: 0.3em; font-size: 2.25em; line-height: 1.2; margin: 1em auto 1.2em; }
+h1::after { border-bottom: 2px dashed rgb(175, 236, 158); content: ""; width: 100px; display: block; margin: 0.2em auto 0px; height: 2px; }
+h2 { font-size: 1.75em; padding-left: 9px; line-height: 1.4; border-left: 6px solid rgb(204, 229, 255); }
+h3 { font-size: 1.5em; line-height: 1.43; }
+h3::before { border-radius: 50%; background-color: rgb(158, 208, 255); content: ""; width: 6px; display: inline-block; height: 6px; vertical-align: middle; margin-bottom: 0.18em; margin-right: 8px; }
+#write > h3.md-focus::before, #write > h4.md-focus::before { background-color: transparent; width: auto; height: auto; }
+h4 { font-size: 1.25em; }
+h4::before { background-color: rgb(158, 208, 255); content: ""; width: 6px; display: inline-block; height: 2px; vertical-align: middle; margin-bottom: 0.18em; margin-right: 8px; }
+h5 { font-size: 1em; }
+h6 { font-size: 1em; color: rgb(119, 119, 119); }
+blockquote, dl, ol, p, table, ul { margin: 0.8em 0px; }
+li > ol, li > ul { margin: 0px; }
+hr { height: 0.25em; padding: 0px; margin: 24px 0px; background-color: rgb(225, 228, 232); border: 0px; }
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6, body > h1:first-child, body > h1:first-child + h2, body > h2:first-child, body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child { margin-top: 0px; padding-top: 0px; }
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p { margin-top: 0px; }
+li p.first { display: inline-block; }
+ol, ul { padding-left: 30px; }
+ol:first-child, ul:first-child { margin-top: 0px; }
+ol:last-child, ul:last-child { margin-bottom: 0px; }
+blockquote { border-left: 4px dotted rgb(229, 232, 232); padding: 0px 12px; color: rgb(68, 68, 68); font-size: 0.9em; }
+blockquote blockquote { padding-right: 0px; }
+table { padding: 0px; word-break: initial; }
+table tr { border-top: 1px solid rgb(218, 223, 230); margin: 0px; padding: 0px; }
+table.md-table tr:nth-child(2n) { background-color: rgb(250, 251, 252); }
+table tr td, table tr th { border: 1px solid rgb(218, 223, 230); text-align: left; margin: 0px; padding: 6px 13px; }
+table tr td:first-child, table tr th:first-child { margin-top: 0px; }
+table tr td:last-child, table tr th:last-child { margin-bottom: 0px; }
+.CodeMirror-gutters { border-right: 1px solid rgb(221, 221, 221); }
+.md-fences, code, tt { font-size: 90%; border-radius: 3px; font-family: "SF Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace, "PingFang SC", "Microsoft YaHei", 微软雅黑; }
+code, tt { margin: 0px 2px; padding: 2px 4px; background-color: rgb(226, 240, 255); }
+.md-fences { background-color: rgb(246, 248, 250); margin-bottom: 15px; margin-top: 15px; padding: 12px 1em; }
+.md-task-list-item > input { margin-left: -1.45em; margin-top: calc(1em - 10px); }
+@media print {
+  body { font-size: 11px; font-weight: 400; }
+  pre, table { break-inside: avoid; }
+  pre { word-wrap: break-word; }
+}
+#write pre.md-meta-block { padding: 1rem; font-size: 85%; line-height: 1.45; background-color: rgb(247, 250, 246); border: 0px; border-radius: 3px; color: rgb(119, 119, 119); margin-top: 0px !important; }
+.mathjax-block > .code-tooltip { bottom: 0.375rem; }
+#write > h3.md-focus::before { left: -1.5625rem; top: 0.375rem; }
+#write > h4.md-focus::before, #write > h5.md-focus::before, #write > h6.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+.md-image > .md-meta { border: 1px solid rgb(221, 221, 221); border-radius: 3px; font-family: "SF Mono", Consolas, "PingFang SC", "Liberation Mono", Courier, monospace, "Microsoft YaHei", 微软雅黑; padding: 2px 4px 0px; font-size: 0.9em; color: inherit; }
+.md-tag { color: inherit; }
+.md-toc { margin-top: 20px; padding-bottom: 20px; }
+.sidebar-tabs { border-bottom: none; }
+#typora-quick-open { border: 1px solid rgb(221, 221, 221); background-color: rgb(248, 248, 248); }
+#typora-quick-open-item { background-color: rgb(250, 250, 250); border-color: rgb(254, 254, 254) rgb(229, 229, 229) rgb(229, 229, 229) rgb(238, 238, 238); border-style: solid; border-width: 1px; }
+.typora-quick-open-item { padding-top: 3px; }
+.typora-quick-open-list { margin-top: 4px; }
+.typora-quick-open-item-path { margin-top: -2px; }
+#md-notification::before { top: 10px; }
+.on-focus-mode blockquote { border-left-color: rgba(85, 85, 85, 0.12); }
+.context-menu, .megamenu-content, footer, header { font-family: "SF UI Text", "PingFang SC", -apple-system, -apple-system-body, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", 微软雅黑, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+.file-node-content:hover .file-node-icon, .file-node-content:hover .file-node-open-state { visibility: visible; }
+.mac-seamless-mode #typora-sidebar { background-color: var(--side-bar-bg-color) ; }
+.md-lang { color: rgb(180, 101, 77); }
+.pin-outline #outline-content .outline-active strong, .pin-outline .outline-active { color: rgb(35, 35, 35); font-weight: 600; }
+.outline-label { color: rgb(100, 100, 100); font-weight: 400; }
+.file-list-item-summary { font-family: "SF UI Text", "PingFang SC", -apple-system, -apple-system-body, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", 微软雅黑, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+b, h1, h2, h3, h4, h5, h6, strong { font-weight: 600; }
+h1, table tr th { font-weight: 400; }
+.file-list-item-file-name { font-weight: 500; }
+
+
+
+
+
+ .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} 
+</style>
+</head>
+<body class='typora-export' >
+<div  id='write'  class = 'is-node'><h1><a name='header-n0' class='md-header-anchor '></a>2019武陵科學推廣隊─感言</h1><h2><a name='header-n2' class='md-header-anchor '></a>總召組</h2><h3><a name='header-n3' class='md-header-anchor '></a>智者(班導)</h3><p>武陵高中自創辦科學班，至這屆新生已是第九屆，這麼多年過去了，我們也看到了科學班的學生，在國家的資源下，一個個希望蔚然成林。</p><p>在為期四天的科學營活動中，第八屆科學班同學在營隊的籌畫與舉辦中，從追求小我的成功擴及成就社會的公義；並能充分的掌握知識、分析知識、應用知識，設計有趣的實作課程，展現創造力，讓科學概念向下紮根。</p><p>誠如王政忠老師所說：「陽光、空氣和水從不會挑選種子，教育或者教育人員也應該是。這一片廣闊的土地，在各界的灌溉下，的確開出了一簇簇迎風招展的向陽花朵，教育是陽光、是空氣、是水，只要公平的對待，每一顆或胖或瘦、或美或醜的種子，都會開花，或高或矮，或紅或白，都會開花。」</p><h3><a name='header-n7' class='md-header-anchor '></a>炭炭(總召)</h3><p>雖然是總召，但是說真的，這次的營隊我並不是最大功臣。很感謝副召跟智閎努力的規劃了整個營隊的行程跟進度，也謝謝大家都非常用心的策劃這整個活動 各司其職。</p><p> 把一個這麼大型的活動從無到有弄出來真的很不容易。熬了好幾個星期的夜為了設計講義；蛋糕課程從食譜設計、食材揀選到工具採買全部一手包辦，扛著好幾袋的工具跟食材跑遍了整個中壢，還有好多好多工作  主持、練舞、美宣......</p><p>雖然聽起來已經做了不少，但真的有人比我做了更多 冠廷、智閎、柏偉、安磊等等。</p><p> 辦好一個營隊遠比我想像中再難很多，但203的大家真的都很優秀</p><p>營隊的每樣規劃每堂課程都讓我大開眼界，很開心可以跟這麼多優秀的人一起合力完成這個活動。</p><p>一年前 我們在一場考試上相遇</p><p>各自的時間長河 匯入了一道我們將攜手共闖的海底隧道</p><p>挺過了最初的疏離 用合作 激盪出熠熠的火花 劃破深海的幽暗死寂</p><p>加油打氣 安慰擁抱 我們的感情也隨著原本冰冷的隧道一同升溫</p><p>走過了無數的爭吵 以原諒 縫補最難得的友誼 拼成腦海中的記憶色塊</p><p>切磋砥礪 左挈右提 將我們的青春畫布漾成色彩斑斕的海底世界</p><p>願這次的營隊 能為我們的高中生涯再添一筆輝煌的紀錄</p><p>也盼往後的兩年 我們能並肩譜出更多的回憶樂章</p><h3><a name='header-n21' class='md-header-anchor '></a>罐頭(副召)</h3><p>歡迎也謝謝你們來，祝你們在這裡看到不同的人事物，也學會看到和了解自己。</p><h2><a name='header-n23' class='md-header-anchor '></a>活動組</h2><h3><a name='header-n24' class='md-header-anchor '></a>兔兔</h3><p>幾個月的焦頭爛額還有最後的趕工、一群科班人生出了這個有精緻細節也有大洞的營隊。一群人可以走的很遠 很遠 而我們班盡力的把天窗補完了（？）。能跟班上一起舉辦科學推廣隊，是一種暢快！</p><p>By 本來想在感言放笑話但截稿想不到笑話的兔兔</p><h3><a name='header-n27' class='md-header-anchor '></a>矮子</h3><p>請看 section 3.17。</p><h3><a name='header-n29' class='md-header-anchor '></a>啊 ∼∼∼∼∼</h3><p>科學推廣隊四天是第八屆科學班半年努力的結晶。我們徒手設計課程，構想背景故事及相關遊戲，
+也製作精美的講義及美工物品。在一次次會議中，我們將爭吵化為共識，將言語轉為行動，終於完
+成了這個史詩級的科學營隊。希望參加的所有國中生可以在這裡享受科學的美好，並從中獲得啟
+發！</p><h2><a name='header-n31' class='md-header-anchor '></a>美宣組</h2><h3><a name='header-n32' class='md-header-anchor '></a>圖書研究社</h3><p>謝謝各位來參加這次科推，相信你們能學到很多東西，也祝你們玩得愉快。</p><h3><a name='header-n34' class='md-header-anchor '></a>阿嬤</h3><p>我還是覺得我很正</p><h3><a name='header-n36' class='md-header-anchor '></a>板哥</h3><p>你好我好大家好我是美宣組的 (冗員) 李訓至〜關於這次『科學推廣隊』的準備的話呢〜我 maybe、
+也許、有可能;疑似、似乎、並沒有;做太多的事情呢 (廢)。我認為呢，本次活動最大的宗旨，
+就是能讓各位學員們能在歡樂的氣氛、輕鬆又不失嚴謹的態度去進行那些，我們 (他們) 精心準備
+的各項活動 (折磨) 及各種精深的科學知識課堂 (睡覺 Zzz) 的學習喔！總而言之言而總之的話呢〜
+我非常感謝各位能在這炎熱的暑假期間，能來到我們科學推廣隊！盡情的享受電神們的教導 (折
+磨) 吧 ∼∼</p><h2><a name='header-n38' class='md-header-anchor '></a>庶務組</h2><h3><a name='header-n39' class='md-header-anchor '></a>阿笠博士</h3><p>有人說：羅馬不是一天造成的
+我們說：科推不是一天做好的</p><p>自三月以來，科推開始慢慢地
+萌芽<span>	</span>發展<span>	</span>成形
+現已到暑期，距離科學推廣營
+只剩<span>	</span>不到<span>	</span>三周</p><p>安磊編寫的精彩劇情
+冠廷用心的縝密規劃
+那一滴滴心血
+造就偉大目標</p><p>如今<span>	</span>大家開始啟動
+那份來自內心的衝勁
+所以<span>	</span>我們盡心盡力
+一起貢獻隱藏的力量</p><p>物理<span>		</span>數學
+<span>		</span>生輔
+生物<span>		</span>化學
+組成宇宙的<span>	</span>平衡常數</p><p>活動<span>		</span>庶務
+<span>		</span>等等
+攝影<span>		</span>隊輔
+建造神聖的<span>	</span>武陵帝國
+願<span>	</span>大家
+努力到最後
+科學推廣隊
+終<span>	</span>完美</p><h3><a name='header-n46' class='md-header-anchor '></a>比例</h3><p>科推除了課程外還有很多很多的遊戲和劇情解謎，感覺真的很好玩，我都想報名當小隊員。做出這
+些活動的人太厲害了。</p><h3><a name='header-n48' class='md-header-anchor '></a>瘋狗</h3><p>隨緣過的生活常因科系間的隔閡而產生一堆麻煩。</p><h3><a name='header-n50' class='md-header-anchor '></a>兩光博士</h3><p>科學知識和故事劇情是複雜的，但是喜歡科學的心卻可以是單純的唷！</p><h2><a name='header-n52' class='md-header-anchor '></a>文書組</h2><h3><a name='header-n53' class='md-header-anchor '></a>熊熊</h3><p>Hi大家，我是文書組的熊熊，希望大家會滿意這次的活動和課程，畢竟我們可是很努力的在達成這件事喔！</p><h3><a name='header-n55' class='md-header-anchor '></a>無尾熊</h3><p>在這四天的營期裡，我們安排了很多有趣（？的課程，希望你們都可以學到東西，並且留下難忘的回憶，期待以後你們可以當我們的學弟妹喔～</p><h3><a name='header-n57' class='md-header-anchor '></a>高速低能計算機</h3><p>很高興能夠在這個營隊和大家相遇，希望你們有獲得滿滿的科學知識及熱情。</p><h2><a name='header-n59' class='md-header-anchor '></a>攝影組</h2><h3><a name='header-n60' class='md-header-anchor '></a>飛天章魚燒</h3><p>雪豹，真的，很可愛</p><p>當然牠們也很漂亮(｡･ω･｡)ﾉ♡</p><p>不管怎樣希望各位看到照片的時候不會想打死業餘攝影組。</p><p>還有感謝各位參加準備的老師同學工作人員，當然最重要的還是來參加的各位！沒有你們，我們做不到！</p><h3><a name='header-n65' class='md-header-anchor '></a>廉價勞工</h3><p>很榮幸參加這次的活動並為團隊付出，希望下次有機會再和大家一起辦活動。</p><h2><a name='header-n67' class='md-header-anchor '></a>隊輔</h2><h3><a name='header-n68' class='md-header-anchor '></a>菜䔕</h3><p>讓我們用手拉力去推廣科學 ∼∼</p><h3><a name='header-n70' class='md-header-anchor '></a>肚毛</h3><p>大家辛苦了，希望在這 4 天裡面大家都有學到有用的知識，不論是學術的知識，或是身體的姿勢，
+希望未來大家都可以好好利用在這裡的所學，很開心可以當你們的領隊 ( • ̀ω•́ )✧</p><h3><a name='header-n72' class='md-header-anchor '></a>羚羊</h3><p>總是在逃避中學習面對，在耍廢之中增進自我 (??)，一回神，一年就過了。腦海留下的是恐怖的公
+式，以及無數白癡又珍貴的回憶 (包括這次科推)。</p><h3><a name='header-n74' class='md-header-anchor '></a>大吉吉</h3><p>每一次的檢驗，都是為了使課程更生動，讓活動更有趣。
+每一次的摩擦，都使我們更成熟，讓營隊更精彩。
+我們成就科學推廣隊，科學推廣隊造就我們。
+期待它也能帶給你們收穫。</p><h3><a name='header-n76' class='md-header-anchor '></a>毛毛</h3><p>毛毛是個好孩子。</p><h3><a name='header-n78' class='md-header-anchor '></a>販菸</h3><p>科推才能賦予我真正的定義
+ㄉㄨㄛㄩㄝㄇㄧ變身成音樂才女
+擺脫疑似瘧疾的緬甸絕症的束縛
+飛向沒有緬甸蒼蠅和鋼鐵韓粉的天空</p><h3><a name='header-n80' class='md-header-anchor '></a>小飛象章魚</h3><p>開始準備科推的事，已經是去年的事了吧。在這期間，一次次的淬鍊，一次次的挫敗，只為最後的
+展翅高飛。願所有參與其中的學員們，都能夠得到當初在報名表單上填上的，希望從這次營隊中獲
+得的東西。除此之外，希望大家也能夠學到更多不同的東西，不僅限於課程的內容，而是從營隊生
+活的這幾天中的各種大大小小的事情，去觀察，去發現，去歸納整理出一條屬於自己的明天。</p><h3><a name='header-n82' class='md-header-anchor '></a>大孢子葉癒合</h3><p>8 月中的一個營隊——真的很熱，不過大家玩得開心就好。突然發現暑假快結束了，就把這當作暑
+假最後的回憶吧。</p><h3><a name='header-n84' class='md-header-anchor '></a>菊花</h3><p>Crazy is putting it all one the line for the game you love.
+我喜歡探險</p><h3><a name='header-n86' class='md-header-anchor '></a>柳橙汁</h3><p>一年前的我看著學⻑姐們在暑假辦科推這個大活動，心裡真的很期待隔年我們自己辦的營隊，不知
+不覺中 103 一起走過一起成⻑一起在時間的⻑河中航過了一波一波的浪。從一群被提前抓來暑輔
+的陌生人，到園遊會前大家留下來在天黑了的教室研發鬆餅，創意歌唱比賽速產歌曲外加大鬧觀眾
+席，迎新水球戰的水花點點倒映著盛放的笑顏，這一年裡我們團結了許多，也懂事了許多，期待已
+久科推也悄悄的來臨，但是真的開始籌備的時候卻突然沒有什麼方向。當然了我的工作是隊輔比較
+沒有那麼吃重，很謝謝那些負責重要崗位的同學們，雖然我的生輔組不是很厲害的學科型，但是希
+望我負責的晚會大家可以玩的開心！！！大家那天晚上都要開開心心帥帥美美的不要醜醜的，全部都
+high 起來喔！最後啊希望大家在我們這個營隊有學到科學方面的知識，也能有所成⻑。然後我要
+給親愛的 3 班一小段話，你們每個人都太棒了，準備出這些具深度的課程，當然了最重要的也是
+因為大家的同心協力才能完成這麼盛大的一個活動！！！</p><h3><a name='header-n88' class='md-header-anchor '></a>朝朝</h3><p>郭</p><h3><a name='header-n90' class='md-header-anchor '></a>綠帽</h3><p>科推歷經數個月的準備，在這期間我們不斷的討論、重複的練習，我們歷經失敗，爭吵，甚至一度
+以為要開天窗，但相信這一切會成為經驗，讓我們的科推變的更加成功。</p><h3><a name='header-n92' class='md-header-anchor '></a>地獄棻妮</h3><p>全班一起策劃這次的活動，過程中有歡笑也有汗水(熱啊)，受益良多啊！希望會很成功</p><h2><a name='header-n94' class='md-header-anchor '></a>事務執掌</h2><ul><li><strong>總召</strong>：林語辰</li><li><strong>副召</strong>：吳冠廷</li><li><strong>活動</strong>：張智閎、吳冠廷、丁安磊、陸柏丞</li><li><strong>美宣</strong>：李書妍、林語辰、洪嘉聲、李訓至</li><li><strong>庶務</strong>：陳苙瑋、程品奕、張竣程、阮柏翰</li><li><strong>文書</strong>：李杰穎、莊翔鈞、黃裕盛</li><li><strong>攝影</strong>：高語儂、廖恩莆</li><li><strong>隊輔</strong>：蔡博恩、賴城諭、林陽、胡睿喆、黃智笙、黃芃嫣、邱柏偉、葉欲禾、鄧駿樺、柳凱馨、鄧朝語、戴佑丞、張智閎、蘇郁棻</li></ul><h2><a name='header-n112' class='md-header-anchor '></a>教學執掌</h2><ul><li><strong>數學組</strong>：張智閎、陸柏丞、黃裕盛、莊翔鈞、廖恩莆、葉欲禾</li><li><strong>物理組</strong>：丁安磊、李杰穎、賴城諭、鄧朝語、戴佑丞、吳冠廷</li><li><strong>化學組</strong>：張竣程、陳苙瑋、林    陽、阮柏翰、胡睿喆、蘇郁棻</li><li><strong>生物組</strong>：邱柏偉、高語儂、蔡博恩、李訓至、程品奕、洪嘉聲</li><li><strong>生輔組</strong>：林語辰、黃芃嫣、黃智笙、柳凱馨、李書妍、鄧駿樺  </li></ul><h2><a name='header-n124' class='md-header-anchor '></a>手冊製作</h2><ul><li><strong>編輯</strong>：李杰穎</li><li><strong>封面及章節設計</strong>：林語辰</li></ul><p>&nbsp;</p></div>
+</body>
+</html>
