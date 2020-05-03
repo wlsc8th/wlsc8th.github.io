@@ -11,7 +11,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
-  --blue: #007bff;
+  --blue: #26859D;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
@@ -2418,7 +2418,7 @@ textarea.form-control {
 .btn {
   display: inline-block;
   font-weight: 400;
-  color: #212529;
+  color: #26859D;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
@@ -2457,13 +2457,13 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #26859D;
+  border-color: #26859D;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #f24516;
-  border-color: #ee3e0d;
+  background-color: rgb(32, 153, 184);
+  border-color: rgb(32, 153, 184);
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
@@ -9959,7 +9959,7 @@ html {
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: #f4623a;
+  border-color: #26859D;
 }
 
 hr.light {
@@ -10048,7 +10048,8 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
+  /* background: linear-gradient(to bottom, rgba(38, 133, 157, 0.5) 0%, rgba(38, 133, 157, 0.5) 100%), url("../assets/img/logo_v2.png"); */
+  background: linear-gradient(to bottom, rgba(23, 13, 82, 0.8) 0%, rgba(13, 189, 233, 0.8) 50%);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
